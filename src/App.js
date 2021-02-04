@@ -1,14 +1,24 @@
-import './App.css';
+import React from 'react'
 
-function App() {
+import { HEADER_SUBTITLE, HEADER_TITLE } from './constants'
+import Grid from './components/Grid'
+import Layout from './components/Layout'
+import './App.css'
+
+function App () {
   return (
     <div className="App">
+      <Layout>
         <header className="App-header">
-          <h1>Multiplication Game!</h1>
-          <h2>Instructions: Click a number to show you all the multiples of that number</h2>
+          <h1>{HEADER_TITLE}</h1>
+          <h2>{HEADER_SUBTITLE}</h2>
         </header>
+
+        <Grid numberOfItems={144}></Grid>
+      </Layout>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
