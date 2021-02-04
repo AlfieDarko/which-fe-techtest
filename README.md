@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Getting Started with Which? Tech Test.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Instructions
 
 In the project directory, you can run:
 
@@ -29,42 +29,36 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Approach
+- I wrote a plan on notes, to help me think about the challenge before I tackled it.
+- I made sure I highlighted what the requirements were just incase I misread and assumed anything which would cause me to fail.
+- I started with the smallest components first and worked my way upwards. 
+- Using TDD helped me develop to a specification and kept my thinking on track. 
+## Challenges
+- Thinking about the grid logic. 
+## Tech Used & Justifications
+- React
+- ClassNames
+- Node-Sass
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ClassNames helps with any className logic I may need. Node-Sass for SASS.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Why Not Typescript? Was 50/50 about this. As I had very limited time, I thought I would get going with JS and I could think about quickly converting it if I did have a spare moment. For a small project like this, React & Proptypes was more than enough. Any bigger and it would have been something to think about introducing.
+## If I Had More Time
+- Maybe introduce some cypress tests
+- Think about Code reusability and extensibility
+- Light use of snapshot tests? Kept it light as they are easy to override
+    - They are more useful in component libraries along with visual regression tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Performance. Could I have done the grid more performantly without sacrificing readability?
+- Accessibility, I could have added a11y tools to my npm scripts. A tool like axe would be great.
+- Why Not Styled Components? - YAGNI . Sass was more than enough. Vanilla CSS would have sufficed for this task too. 
+- React over Next? -  It was a simple task and although I like next.js, I wouldn't need what it offers for this task.
+- CSS Animations? Kept it simple as we were not judging design! (I can definitely do better than this task btw 😅).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## What I could have done better
 
-## Learn More
+- Better Tests. I could have added more thorough unit tests for the function that finds the common multiples.
+## Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for taking the time
