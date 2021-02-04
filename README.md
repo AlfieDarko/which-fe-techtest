@@ -1,7 +1,8 @@
 # Getting Started with Which? Tech Test.
 ## By Alfie Darko (www.alfiedarko.com)
 
-
+## Deployed:
+URL> (Link)[https://which-fe-techtest-cp3zglfs3.vercel.app/]
 ## Instructions
 
 In the project directory, you can run:
