@@ -59,6 +59,7 @@ Why Not Typescript? Was 50/50 about this. As I had very limited time, I thought 
 ## What I could have done better
 
 - Better Tests. I could have added more thorough unit tests for the function that finds the common multiples.
+- Better focus stying for accessibility reasons
 ## Notes
 
 Thanks for taking the time
