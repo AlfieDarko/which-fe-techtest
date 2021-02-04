@@ -4,6 +4,11 @@
   border: 3px solid blue;
   cursor: pointer;
 
+  &__value {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
   &--state-highlighted {
     background: lightcoral;
   }
