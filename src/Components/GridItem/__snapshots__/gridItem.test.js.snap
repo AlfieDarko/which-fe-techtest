@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    class="grid-item"
+    data-testid="grid-item-1"
+    type="button"
+    value="1"
+  >
+    <p
+      data-testid="grid-item-value"
+    >
+      1
+    </p>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`should render the grid-item correctly given the correct props 1`] = `
+<DocumentFragment>
+  <button
+    class="grid-item--state-highlighted"
+    data-testid="grid-item-1"
+    type="button"
+    value="1"
+  >
+    <p
+      data-testid="grid-item-value"
+    >
+      1
+    </p>
+  </button>
+</DocumentFragment>
+`;
