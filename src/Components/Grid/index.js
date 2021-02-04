@@ -1,9 +1,9 @@
-import './grid.scss'
-
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
 import GridItem from '../GridItem'
 import findMultiples from '../../utils/findMultiples'
+import './grid.scss'
 
 const Grid = ({ numberOfItems }) => {
   const [clickedItemValue, setClickedItemValue] = useState()
@@ -40,6 +40,10 @@ const Grid = ({ numberOfItems }) => {
           {renderGridItems(numberOfItems)}
         </div>
   )
+}
+
+Grid.propTypes = {
+  numberOfItems: PropTypes.number
 }
 
 export default Grid
